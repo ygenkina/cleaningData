@@ -1,3 +1,5 @@
+#-----------------------------PART 1----------------------------------
+
 #load libraries necessary
 library(dplyr)
 library(tidyr)
@@ -20,6 +22,8 @@ addActivityLables<-function(x){
   else {"laying"}
 }
 
+#-----------------------------PART 3----------------------------------
+
 #convert numeric activity labels into descriptive names
 testActivity<-sapply(testLabels$V1,addActivityLables)
 trainActivity<-sapply(trainLabels$V1,addActivityLables)
@@ -36,6 +40,8 @@ names(trainDataWithLabels)<-measureLabels$V2
 trainDataWithLabels$participant<-trainParticipants$V1
 trainDataWithLabels$activity<-trainActivity
 
+#-----------------------------PART 1----------------------------------
+
 #merge two data sets into one containing 10299 observations and 563 variables
 
 mergedData <- rbind(testDataWithLabels,trainDataWithLabels)
@@ -43,6 +49,14 @@ mergedData <- rbind(testDataWithLabels,trainDataWithLabels)
 # arrange the vars such that participant and activity are first
 namesMergedData<-names(mergedData)
 mergedData<-mergedData[c(namesMergedData[562:563],namesMergedData[1:561])]
+
+#order dataset by participant 
 mergedData<-arrange(mergedData,participant)
 
+#-----------------------------PART 2----------------------------------
+# extract only the measurements on the mean and standard deviation for each measurement
+varNames<-names(mergedData)
+selectColNames<-grep("mean|std",varNames)
+
+onlyAvrSTD<-mergedData[c(1,2,selectColNames)]
 
