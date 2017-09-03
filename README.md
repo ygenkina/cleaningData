@@ -34,4 +34,13 @@ Parts 1 through 4 of the assignment are accoplished in the following order:
 10. summaryData is the separate tidy dataset requested, with each variable summarized by participant and activity. 
 
 
+## How to use it
+1. Clone the repo on your home machine. 
+
+2. Run the R file. 
+
+3. Check out the codeBook file.
+
+4. Enjoy tidy data!
+
 
