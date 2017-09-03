@@ -31,62 +31,62 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-*tBodyAcc-XYZ
+* tBodyAcc-XYZ
 
-*tGravityAcc-XYZ
+* tGravityAcc-XYZ
 
-*tBodyAccJerk-XYZ
+* tBodyAccJerk-XYZ
 
-*tBodyGyro-XYZ
+* tBodyGyro-XYZ
 
-*tBodyGyroJerk-XYZ
+* tBodyGyroJerk-XYZ
 
-*tBodyAccMag
+* tBodyAccMag
 
-*tGravityAccMag
+* tGravityAccMag
 
-*tBodyAccJerkMag
+* tBodyAccJerkMag
 
-*tBodyGyroMag
+* tBodyGyroMag
 
-*tBodyGyroJerkMag
+* tBodyGyroJerkMag
 
-*fBodyAcc-XYZ
+* fBodyAcc-XYZ
 
-*fBodyAccJerk-XYZ
+* fBodyAccJerk-XYZ
 
-*fBodyGyro-XYZ
+* fBodyGyro-XYZ
 
-*fBodyAccMag
+* fBodyAccMag
 
-*fBodyAccJerkMag
+* fBodyAccJerkMag
 
-*fBodyGyroMag
+* fBodyGyroMag
 
-*fBodyGyroJerkMag
+* fBodyGyroJerkMag
 
 The set of variables that were estimated from these signals and included in the final output are: 
 
-*mean(): Mean value
+* mean(): Mean value
 
-*std(): Standard deviation
+* std(): Standard deviation
 
-*angle(): Angle between to vectors.
+* angle(): Angle between to vectors.
 
 Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
 
-*gravityMean
+* gravityMean
 
-*tBodyAccMean
+* tBodyAccMean
 
-*tBodyAccJerkMean
+* tBodyAccJerkMean
 
-*tBodyGyroMean
+* tBodyGyroMean
 
-*tBodyGyroJerkMean
+* tBodyGyroJerkMean
 
 
-###Output data sets
+##Output data sets
 
 **onlyAvrSTD** is the tidy data containing all the necessary labels and variables
 
