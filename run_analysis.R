@@ -2,7 +2,6 @@
 
 #load libraries necessary
 library(dplyr)
-library(tidyr)
 # load the "messy" datasets 
 testData<-read.table("UCI HAR Dataset/test/X_test.txt")
 trainData<-read.table("UCI HAR Dataset/train/X_train.txt")
