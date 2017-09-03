@@ -85,8 +85,8 @@ Additional vectors obtained by averaging the signals in a signal window sample. 
 
 * tBodyGyroJerkMean
 
-
-##Output data sets
+-------------------
+#Output data sets
 
 **onlyAvrSTD** is the tidy data containing all the necessary labels and variables
 
