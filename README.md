@@ -3,8 +3,8 @@
 This project takes the Human Activity Recognition Using Smartphones Dataset
 
 Version 1.0 
-
-##License:
+----------------------
+*License:*
 
 Use of this dataset in publications must be acknowledged by referencing the following publication [1] 
 
