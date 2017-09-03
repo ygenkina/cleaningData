@@ -4,13 +4,19 @@ As per the assignment requirement only the measurements on the mean and standard
 
 After r_analysis.R is run all original data is stored in the following data frames:
 
-*testData
-*trainData
-*testParticipants
-*trainParticipants
-*testLabels, which stands for activity labels
-*trainLabels, which stands for activity labels
-*measureLabels
+* testData
+
+* trainData
+
+* testParticipants
+
+* trainParticipants
+
+* testLabels, which stands for activity labels
+
+* trainLabels, which stands for activity labels
+
+* measureLabels
 
 ##### measureLabels Info
 
