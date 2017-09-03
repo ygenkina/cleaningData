@@ -1,4 +1,4 @@
-# Cleaning Data Project
+# Cleaning Data Project #
 
 This project takes the Human Activity Recognition Using Smartphones Dataset
 Version 1.0 
