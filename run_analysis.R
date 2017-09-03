@@ -59,8 +59,8 @@ onlyAvrSTD<-mergedData[c(1,2,selectColNames)] #create a dataset with only means 
 #-----------------------------PART 5----------------------------------
 # create an independent dataset with the average of each variable for each activity and each subject.
 
-summaryData<- onlyAvrSTD %>%
-  group_by(participant, activity) %>%
-  summarize(mean(varNames[selectColNames]))
+summaryData<- onlyAvrSTD %>%  #take the desired tidy dataset
+  group_by(participant, activity) %>%  #group dataset by participant and activity
+  summarize_at(varNames[selectColNames], funs(mean)) # summarize each of the given variables using the mean function
   
 
